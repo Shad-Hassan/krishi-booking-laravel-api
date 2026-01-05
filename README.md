@@ -1,6 +1,8 @@
 # Sea Palace Booking REST API
 
-A complete Laravel 12 REST API for Sea Palace share booking system with Sanctum authentication, booking management, payment processing, and admin dashboard.
+A complete Laravel 11 REST API for Sea Palace share booking system with Sanctum authentication, booking management, payment processing, and admin dashboard.
+
+**Compatible with PHP 8.1, 8.2, and 8.3**
 
 ---
 
@@ -1636,12 +1638,19 @@ Point DocumentRoot to the `public/` directory.
 
 | Component      | Technology                |
 |----------------|---------------------------|
-| Framework      | Laravel 12                |
-| PHP Version    | 8.2+                      |
+| Framework      | Laravel 11                |
+| PHP Version    | 8.1+ (8.1, 8.2, 8.3)      |
 | Authentication | Laravel Sanctum           |
 | ORM            | Eloquent                  |
-| Database       | MySQL 8.0+                |
+| Database       | MySQL 5.7+ / 8.0+         |
 | File Storage   | Laravel Filesystem (local)|
+
+### cPanel Compatibility
+
+This API is fully compatible with shared hosting environments like cPanel that support:
+- PHP 8.1 or higher
+- MySQL 5.7 or higher
+- Composer
 
 ---
 
